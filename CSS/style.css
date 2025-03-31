@@ -1,12 +1,16 @@
 
+body{
+  font-family: "Inter", sans-serif;
+}
+
 .container{
-  width: 1140px;
+  width: 1100px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
 .navigation{
-  font-family: "Inter", sans-serif;
+  
 text-decoration: none;
 font-weight: 300;
 }
@@ -19,15 +23,7 @@ font-weight: 300;
   font-family: "Headland One";
   font-weight: 400;
 }
-.Jace-Salli-1{
-  font-family: "Inter", sans-serif;
-}
-.Jace-Salli-2{
-  font-family: "Inter", sans-serif;
-}
-.Jace-Salli{
-  font-family: "Inter", sans-serif;
-}
+
 .switch {
     font-size: 17px;
     position: relative;
@@ -42,38 +38,7 @@ font-weight: 300;
     font-family: "Headland One";
   
   }
-  .navi{
-    font-family: "Inter", sans-serif;
-    
-  }
-  .Neitiri{
-    font-family: "Inter", sans-serif;
-  }
-  .Ukrainian{
-    font-family: "Inter", sans-serif;
-  }
-  .language-navi{
-    font-family: "Inter", sans-serif;
-    
-  }
-  .language-Ukrainian{
-    font-family: "Inter", sans-serif;
-    
-  }
-  .language-switcher{
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-  }
-  .footer-email{
-    font-family: "Inter", sans-serif;
-    
-  }
-  .footer-email-1{
-    font-family: "Inter", sans-serif;
-  }
-  .footer-text{
-    font-family: "Inter", sans-serif;
-  }
+  
   header{
     background-image: url(../images/);
   }
