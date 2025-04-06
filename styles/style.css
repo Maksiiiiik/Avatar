@@ -6,20 +6,24 @@ body{
 }
 
 .container{
-  width: 1031px;
-  padding: 0 15px;
+  width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
 .navigation{
   
 text-decoration: none;
-font-weight: 300;
+
 color: #ffffff;
 }
-
+.logo{
+  justify-self: start;
+ 
+  
+}
 .login-btn{
-  font-family: "Inter", sans-serif;
+  
   font-weight: 400;
   background-color: #0B0E66;
   color: #26C6EA;
@@ -28,9 +32,12 @@ color: #ffffff;
   border-radius: 35px 0 35px 0;
   height: 41.69px;
   width: 141px;
+  margin-right:49px ;
+  text-align: center;
+  font-family: "Headland One", sans-serif; 
 }
 .join-button{
-  font-family: "Inter", sans-serif;
+  font-family: "Headland One", sans-serif; 
   font-weight: 400;
   background-color: #0B0E66;
   color: #26C6EA;
@@ -38,6 +45,7 @@ color: #ffffff;
   border: #26C6EA solid 2px;
   height: 80px;
   width: 260px;
+
 }
 
 .switch {
@@ -54,7 +62,7 @@ color: #ffffff;
     color: #ffffff;
   }
   .button-trailer{
-    font-family: "Inter", sans-serif;
+   
   font-weight: 400;
   background-color: #0B0E66;
   color: #26C6EA;
@@ -62,7 +70,7 @@ color: #ffffff;
   border: #26C6EA solid 2px;
   height: 80px;
   width: 260px;
- 
+  font-family: "Headland One", sans-serif; 
   }
   .learn-language{
     font-family: "Headland One";
@@ -76,7 +84,45 @@ color: #ffffff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     border-bottom: 3px solid #fff;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
     
+    
+  }
+  .nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+    
+  }
+  .navigation1{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 20px;
+text-align: center;
+color: #fff;
+margin-right: 38px;
+  }
+  .navigation2{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 20px;
+text-align: center;
+color: #fff;
+margin-right: 38px;
+  }
+  .navigation3{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 20px;
+text-align: center;
+color: #fff;
+
+  }
+  .nav::after{
+    color:#94cfff ;
   }
   .footer{
     background: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/rectangle12.png);
@@ -85,8 +131,12 @@ color: #ffffff;
     height: 223px;
     color: #ffffff;
   }
-  .logo{
-    
+  
+  .header-right{
+    display: flex;
+    gap: 10px;
+    justify-self: end;
+    margin-bottom: 54px;
   }
   .hero{
     background-image: url(../images/group481.png);
@@ -97,7 +147,7 @@ color: #ffffff;
     margin: 0 auto;
   }
   .trailer{
-    background-image: url(../images/Rectangle\ 10.png);
+    background-image: url(../images/rectangle10.png);
     background-size: cover;
     background-position: center;
     height: 741px;
@@ -123,7 +173,7 @@ color: #ffffff;
     background-color: #ffffffa2;
   }
   .learn-language{
-    background-image: url(../images/Rectangle\ 20.png);
+    background-image: url(../images/rectangle20.png);
     background-size: cover;
     background-position: center;
     padding-top: 58px;
@@ -133,23 +183,26 @@ color: #ffffff;
   }
   .language-switcher{
     color: #ffffff;
+    
   }
   .Ukrainian{
-    font-family: "Inter", sans-serif;
+   
     margin-top: 36px;
     margin-bottom: 40px;
     margin-left: 120px;
     margin-right: 120px;
+    font-family: "Headland One", sans-serif; 
   }
   .navi{
     margin-top: 40px;
     margin-bottom: 36px;
     margin-left: 29px;
     margin-right: 29px;
+    font-family: "Headland One", sans-serif; 
   }
   .learn-language-title{
     text-align: center;
-    font-family: "Headland One", serif;
+    font-family: "Headland One", sans-serif; 
     font-size: 32px;
     line-height: 1.25;
     margin-bottom: 45px;
@@ -158,6 +211,9 @@ color: #ffffff;
   .cat{
     background-color: #ffffff;
     text-align: center;
+    height: 350px;
+    
+    
   }
   .cats{
     background-color: #ffffff;
