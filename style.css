@@ -78,7 +78,7 @@ color: #ffffff;
   }
   
   header{
-    background: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/rectangle104.png);
+    background: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../Avatar/crs/styles/images/rectangle104.png);
     background-size: cover;
     height: 150px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -125,7 +125,7 @@ color: #fff;
     color:#94cfff ;
   }
   .footer{
-    background: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/rectangle12.png);
+    background: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../Avatar/crs/styles/images/rectangle12.png);
     background-size: cover;
     background-size: cover;
     height: 223px;
@@ -139,7 +139,7 @@ color: #fff;
     margin-bottom: 54px;
   }
   .hero{
-    background-image: url(../images/group481.png);
+    background-image: url(../Avatar/crs/styles/images/group481.png);
     background-size: cover;
     background-position: center;
     
@@ -147,7 +147,7 @@ color: #fff;
     margin: 0 auto;
   }
   .trailer{
-    background-image: url(../images/rectangle10.png);
+    background-image: url(../Avatar/crs/styles/images/rectangle10.png);
     background-size: cover;
     background-position: center;
     height: 741px;
@@ -173,7 +173,7 @@ color: #fff;
     background-color: #ffffffa2;
   }
   .learn-language{
-    background-image: url(../images/rectangle20.png);
+    background-image: url(../Avatar/crs/styles/images/rectangle20.png);
     background-size: cover;
     background-position: center;
     padding-top: 58px;
