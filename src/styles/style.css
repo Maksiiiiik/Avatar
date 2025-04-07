@@ -73,6 +73,7 @@ body {
   font-family: "Headland One", sans-serif;
   font-weight: 400;
   font-size: 24px;
+ 
 }
 .learn-language {
   font-family: "Headland One", sans-serif;
@@ -135,19 +136,51 @@ header {
   font-weight: 400;
   font-size: 24px;
 }
+.quote-name::after{
+  content: "";
+  height: 120px;
+  display: block;
+ background-image: url(../images/rectangle8.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  
+}
 .quote-img {
   display: flex;
 }
 .nav::after {
   color: #94cfff;
 }
+.messengers{
+ list-style: none;
+ display: flex; 
+ flex-direction: column;
+ gap: 25px;
+}
 .footer {
   background: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)),
     url(../images/rectangle12.png);
   background-size: cover;
   background-size: cover;
-  height: 223px;
   color: #ffffff;
+  padding: 35px 0;
+ 
+}
+.footer-mails{
+  padding-top: 45px ;
+  padding-left: 80px;
+  border-left: 2px solid #fff;
+flex-grow: 1;
+}
+.container-footer{
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  
 }
 
 .header-right {
@@ -162,6 +195,11 @@ header {
 
   padding: 180px 0;
   margin: 0 auto;
+}
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .trailer {
   background-image: url(../images/rectangle10.png);
