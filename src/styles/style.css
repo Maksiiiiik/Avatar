@@ -4,7 +4,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1031px;
   margin: 0 auto;
 }
 
@@ -73,7 +73,7 @@ body {
   font-family: "Headland One", sans-serif;
   font-weight: 400;
   font-size: 24px;
- 
+ cursor: pointer;
 }
 .learn-language {
   font-family: "Headland One", sans-serif;
