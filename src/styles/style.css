@@ -16,6 +16,27 @@ body {
 .logo {
   justify-self: start;
 }
+.mails-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.mails-item:first-child{
+background-image: url(../images/vector8.svg);
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 28px;
+}
+.mails-item:last-child{
+  background-image: url(../images/vector9.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-text{
+  text-align: center;
+  margin-top: 37px;
+}
 .login-btn {
   font-weight: 400;
   background-color: #0b0e66;
@@ -214,6 +235,7 @@ flex-grow: 1;
 .footer-email {
   font-weight: 400;
   font-size: 20px;
+  
 }
 .footer-email-1 {
   font-weight: 400;
