@@ -232,6 +232,11 @@ flex-grow: 1;
   align-items: center;
   text-align: center;
 }
+.messenger-icon{
+  height: 30px;
+  width: 30px;
+ 
+}
 .footer-email {
   font-weight: 400;
   font-size: 20px;
