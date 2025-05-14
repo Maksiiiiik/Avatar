@@ -22,6 +22,9 @@ body {
   align-items: center;
   
 }
+.mails-item:hover{
+  fill: #26c6ea;
+}
 .mails-item:first-child{
 background-image: url(../images/vector8.svg);
 background-repeat: no-repeat;
@@ -63,6 +66,11 @@ margin-bottom: 28px;
   width: 260px;
   font-weight: 400;
   font-size: 24px;
+  
+}
+.modal {
+  background-image:url(../images/background-modal.png) ;
+  background-size: cover;
 }
 
 .switch {
@@ -183,7 +191,7 @@ header {
  gap: 25px;
 }
 .footer {
-  background: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)),
+ background: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)),
     url(../images/rectangle12.png);
   background-size: cover;
   background-size: cover;
@@ -192,13 +200,14 @@ header {
  
 }
 .footer-mails{
+  
   padding-top: 45px ;
   padding-left: 80px;
   border-left: 2px solid #fff;
 flex-grow: 1;
 }
 .container-footer{
-  display: flex;
+   display: flex;
   gap: 80px;
   align-items: center;
   
@@ -232,19 +241,85 @@ flex-grow: 1;
   align-items: center;
   text-align: center;
 }
+.messenger-icon3{
+  height: 30px;
+  width: 30px;
+ 
+}
+.messenger-icon2{
+  height: 30px;
+  width: 30px;
+ 
+}
 .messenger-icon{
   height: 30px;
   width: 30px;
  
+}
+.messenger-icon4{
+  height: 30px;
+  width: 30px;
+ fill: #ffffff;
+ 
+  
+}
+.messenger-icon4:hover{
+  fill: rgb(21, 202, 230);
+}
+.messenger-icon2:hover{
+  fill: rgb(21, 160, 230);
+}
+.messenger-icon3:hover{
+  fill: rgb(230, 21, 21);
+}
+.messenger-icon:hover{
+  fill: rgb(230, 160, 21);
+}
+.messenger-icon{
+  fill: #ffffff;
+}
+.messenger-icon2{
+  fill: #ffffff;
+}
+.messenger-icon3{
+  fill: #ffffff;
 }
 .footer-email {
   font-weight: 400;
   font-size: 20px;
   
 }
-.footer-email-1 {
-  font-weight: 400;
-  font-size: 20px;
+.mails-item:hover .messenger-icon{
+color: #26c6ea;
+}
+.backdrop{
+  position: fixed;
+  inset: 0;
+  background-color: #0000002c; 
+}
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 5px #616060;
+}
+.close-button{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.backdrop.is-hidden{
+  opacity: 0;
+  pointer-events: none;
+}
+.no-scroll{
+  overflow: hidden;
 }
 .footer-text {
   font-weight: 400;
@@ -341,4 +416,25 @@ flex-grow: 1;
 }
 .cards {
   list-style: none;
+   overflow: hidden;
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  padding: 50px;
+  background: linear-gradient(rgb(107, 161, 202), rgb(40, 63, 77));
+  transform: translateY(100%);
+  transition: transform 1s ease-in-out;
+  
+}
+.cards:hover .overlay {
+  transform: translateY(0);
+}
+.navi-overlay{
+  text-align: center;
+  font-family: "Headland One", sans-serif;
+  margin-top: 60px;
 }

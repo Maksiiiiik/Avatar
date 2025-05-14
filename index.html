@@ -57,10 +57,35 @@
             щоб стати частиною Народу.<br />
             Борись разом з нами!
           </p>
-          <button class="join-button">
-            Приєднатися до <br />
-            клану
+          <button class="open-button join-button" data-open_modal>
+            Приєднатися до <br />клану
           </button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="close-button" data-close_modal>×</button>
+              <form>
+                <label for="user-name">Ім'я</label>
+                <input
+                  id="user-name"
+                  class="footer-form-input"
+                  type="text"
+                  placeholder=""
+                  required
+                  minlength="5"
+                  maxlength="20"
+                />
+                <label for="user-email">Email</label>
+                <input
+                  id="user-email"
+                  class="footer-form-input"
+                  type="email"
+                  placeholder=""
+                  required
+                />
+              </form>
+              <button class="join-button">Приєднатися до клану</button>
+            </div>
+          </div>
         </div>
         <ul class="messengers">
           <li class="messenger">
@@ -72,13 +97,16 @@
           </li>
           <li class="messenger">
             <a href="" target="_blank"
-              ><img src="../Avatar/src/images/twitter1.png" alt="twitter"
-            /></a>
+              ><svg class="messenger-icon2">
+                <use href="./src/images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
           </li>
           <li class="messenger">
             <a href="https://www.youtube.com/@AvatarOfficial" target="_blank"
-              ><img src="../Avatar/src/images/youtube1.png" alt="youtube"
-            /></a>
+              ><svg class="messenger-icon3">
+                <use href="./src/images/icons.svg#icon-vector"></use></svg
+            ></a>
           </li>
         </ul>
       </div>
@@ -95,7 +123,8 @@
     <section class="trailer">
       <div class="container">
         <a href="https://www.youtube.com/watch?v=d9MyW72ELq0">
-        <button class="button-trailer" >  Дивитись трейлер</button></a>
+          <button class="button-trailer">Дивитись трейлер</button></a
+        >
       </div>
     </section>
     <section class="quote">
@@ -114,32 +143,51 @@
           <li class="cards">
             <p class="Ukrainian">Привіт</p>
             <p><img src="./src/images/rectangle42.png" alt="decoration1" /></p>
-            <p class="navi">Kaltxì</p>
+            <p class="navi">Привіт</p>
+
+            <div class="overlay">
+              <p class="navi-overlay">Kaltxì</p>
+            </div>
           </li>
           <li class="cards">
             <p class="Ukrainian">Як справи?</p>
             <p><img src="./src/images/rectangle99.png" alt="decoration2" /></p>
-            <p class="navi">Ngaru lu fpom srak?</p>
+            <p class="navi">Як справи?</p>
+            <div class="overlay">
+              <p class="navi-overlay">Ngaru lu fpom srak?</p>
+            </div>
           </li>
           <li class="cards">
             <p class="Ukrainian">Все добре</p>
             <p><img src="./src/images/rectangle42.png" alt="decoration1" /></p>
-            <p class="navi">Lu fpom</p>
+            <p class="navi">Все добре</p>
+            <div class="overlay">
+              <p class="navi-overlay">Lu fpom</p>
+            </div>
           </li>
           <li class="cards">
             <p class="Ukrainian">Дякую</p>
             <p><img src="./src/images/rectangle42.png" alt="decoration1" /></p>
-            <p class="navi">Irayo si</p>
+            <p class="navi">Дякую</p>
+            <div class="overlay">
+              <p class="navi-overlay">Irayo si</p>
+            </div>
           </li>
           <li class="cards">
             <p class="Ukrainian">Я бачу тебе</p>
             <p><img src="./src/images/rectangle99.png" alt="decoration2" /></p>
-            <p class="navi">Oel ngati kameie</p>
+            <p class="navi">Я бачу тебе</p>
+            <div class="overlay">
+              <p class="navi-overlay">Oel ngati kameie</p>
+            </div>
           </li>
           <li class="cards">
             <p class="Ukrainian">Слідуй за мною!</p>
             <p><img src="./src/images/rectangle42.png" alt="decoration1" /></p>
-            <p class="navi">Nong oet!</p>
+            <p class="navi">Слідуй за мною!</p>
+            <div class="overlay">
+              <p class="navi-overlay">Nong oet!</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -177,5 +225,6 @@
         </div>
       </div>
     </footer>
+    <script type="module" src="./src/index.js"></script>
   </body>
 </html>
